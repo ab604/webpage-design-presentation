@@ -1,0 +1,22 @@
+---
+title: "Webpage Design"
+format: 
+  revealjs:
+    theme: [assets/styles.scss] 
+title-slide-attributes:
+    data-background-image: /img/USH0149_LOGO-2021_RGB_White_Punched-AW.png
+    data-background-size: 25%
+    data-background-position: top right
+    data-background-color: "#8D3970"
+---
+
+## How people access webpages
+
+Quarto enables you to weave together [content]{.highlight} and executable code into a finished document. To learn [more]{.vonrestoff} about Quarto see [https://quarto.org]{.mylink}.
+
+```{r}
+1 + 1
+```
+
+## {background-image="img/web-access-graph.gif" background-size="contain"}
+

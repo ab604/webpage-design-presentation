@@ -1,0 +1,73 @@
+## Draw a figure to show how people view the internet in the UK over time
+
+```{r}
+#| message: false
+#| warning: false
+library(tidyverse)
+library(sotoncolours)
+library(scales)
+library(gganimate)
+extrafont::loadfonts()
+
+dt <- read_csv("comparison-GB-yearly-2011-2022.csv",
+               col_types = c("i","n","n")) |>
+  pivot_longer(2:3) |> mutate(Share = value/100) |>
+  rename(Year = Date, Platform = name) |> mutate(year = ymd(Year, truncated = 2L))
+```
+
+```{r}
+new_theme <- theme(plot.background = element_rect(fill = "#222222", color = NA),
+      panel.background = element_rect(fill = "#222222", color = NA),
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank(),
+      plot.title = element_text(color = "#E73037", face = "bold"),
+      axis.line = element_line(colour = "white"),
+      axis.ticks = element_line(colour = "white"),
+      axis.text = element_text(color = "white"),
+      axis.title = element_text(color = "white"),
+      legend.text = element_text(color = "white"),
+      legend.title = element_text(color = "white"),
+      legend.background = element_rect(fill = "#222222", colour = NA),
+      legend.key = element_rect(color = "#222222", fill = "#222222"),
+      #legend.position = "bottom",
+      text = element_text("Atkinson Hyperlegible", size = 6))
+
+theme_set(new_theme)
+
+anim_plt <- dt |> 
+  ggplot(aes(x = Year, y = Share, colour = Platform, group = Platform)) +
+  geom_line(linewidth = 1) +
+  geom_point(size = 2) +
+  scale_y_continuous(labels = label_percent()) +
+  scale_colour_manual(values = c("#FCBC00","#E73037")) +
+  scale_x_continuous(breaks = c(2011:2023)) +
+  # Here comes the gganimate specific bits
+  labs(title = 'People now access as often from mobile devices as traditional computers.\nYear: {frame_along}', x = 'Year', y = 'Percentage of Webpage Access') +
+  transition_reveal(Year, keep_last = F) +
+  ease_aes('linear')
+
+animate(anim_plt, renderer = gifski_renderer(loop = FALSE), 
+        width = 13, height = 7.5, units = "cm", res = 300)
+
+anim_save("../img/web-access-graph.gif")
+```
+
+
+```{r}
+# theme_set(theme_minimal(base_family ="Atkinson Hyperlegible", base_size = 16))
+# theme(panel.grid.major.x = element_blank(), plot.title = element_text(size = 20, color = "#005C84",face = "bold"), plot.subtitle = element_text(size = 18, color = "#005C84",face = "bold"))
+
+plt <- dt |> ggplot(aes(x = Year, y = Share, colour = Platform, group = Platform)) +
+  geom_line(linewidth = 1.5) +
+  #geom_point(size = 3) +
+  scale_y_continuous(labels = label_percent()) +
+  scale_x_continuous(breaks = c(2011:2023)) +
+  scale_colour_manual(values = c("#FCBC00","#E73037")) +
+  #scale_colour_uos(palette = "contrast2") +
+  labs(title = "Desktop vs Mobile Market Share United Kingdom 2011-2022", subtitle = "source: https://gs.statcounter.com") #+
+  #theme(legend.position = "bottom")
+
+plt 
+
+#ggsave("../img/uk-web-views-2011-2022.png", bg = "white", width = 10, height = 7.5)
+```
