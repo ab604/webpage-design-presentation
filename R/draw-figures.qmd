@@ -20,7 +20,7 @@ new_theme <- theme(plot.background = element_rect(fill = "#222222", color = NA),
       panel.background = element_rect(fill = "#222222", color = NA),
       panel.grid.major = element_blank(),
       panel.grid.minor = element_blank(),
-      plot.title = element_text(color = "#E73037", face = "bold"),
+      plot.title = element_text(color = "white", face = "bold", size = 8),
       axis.line = element_line(colour = "white"),
       axis.ticks = element_line(colour = "white"),
       axis.text = element_text(color = "white"),
@@ -41,8 +41,12 @@ anim_plt <- dt |>
   scale_y_continuous(labels = label_percent()) +
   scale_colour_manual(values = c("#FCBC00","#E73037")) +
   scale_x_continuous(breaks = c(2011:2023)) +
+  annotate("text",
+           label = "Access from mobile devices is\nnow as common as\nfrom traditional computers", 
+           x = 2020, y = 0.25, color  = "white", size = 2, 
+           family = "Atkinson Hyperlegible") +
   # Here comes the gganimate specific bits
-  labs(title = 'People now access as often from mobile devices as traditional computers.\nYear: {frame_along}', x = 'Year', y = 'Percentage of Webpage Access') +
+  labs(title = 'UK Web Access, Year: {frame_along}\nsource: https://gs.statcounter.com', x = 'Year', y = 'Percentage of Webpage Access') +
   transition_reveal(Year, keep_last = F) +
   ease_aes('linear')
 
@@ -64,6 +68,7 @@ plt <- dt |> ggplot(aes(x = Year, y = Share, colour = Platform, group = Platform
   scale_x_continuous(breaks = c(2011:2023)) +
   scale_colour_manual(values = c("#FCBC00","#E73037")) +
   #scale_colour_uos(palette = "contrast2") +
+  annotate("text",label = "2023 Access from mobile devices is\nnow as common as\nfrom traditional computers", x = 2020, y = 0.75, color  = "white", size = 5, family = "Atkinson Hyperlegible") +
   labs(title = "Desktop vs Mobile Market Share United Kingdom 2011-2022", subtitle = "source: https://gs.statcounter.com") #+
   #theme(legend.position = "bottom")
 

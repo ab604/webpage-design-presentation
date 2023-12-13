@@ -3,6 +3,8 @@ title: "Webpage Design"
 format: 
   revealjs:
     theme: [assets/styles.scss] 
+revealjs-plugins:
+  - revealjs-text-resizer
 title-slide-attributes:
     data-background-image: img/USH0149_LOGO-2021_RGB_White_Punched-AW.png
     data-background-size: 25%
@@ -10,13 +12,15 @@ title-slide-attributes:
     data-background-color: "#8D3970"
 ---
 
-## How people access webpages
+## We are creating webpages that are [primarily text and links]{.vonrestoff} {.center}
 
-Quarto enables you to weave together [content]{.highlight} and executable code into a finished document. To learn [more]{.vonrestoff} about Quarto see [https://quarto.org]{.mylink}.
 
-```{r}
-1 + 1
-```
+## {background-image="img/small-gov.png" background-size="contain"}
+
+[source: [GDS Team](https://www.flickr.com/photos/gdsteam/20955195028)]{.reference .absolute bottom=0 left=850}
 
 ## {background-image="img/web-access-graph.gif" background-size="contain"}
 
+## Design webpages for <br> [consistency]{.vonrestoff} across platforms {.center .bigger}
+
+## People don't read webpages<br> They [scan]{.vonrestoff} {.center}

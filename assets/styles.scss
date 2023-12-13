@@ -31,13 +31,19 @@ $gray-900: #222 !default;
 $presentation-heading-font: 'Atkinson Hyperlegible',Atkinson+Hyperlegible
   FreeSerif, serif !default;
   
-$presentation-heading-color: $horizon3;
+$presentation-heading-color: white;
 
 /*-- scss:rules --*/
 
 .highlight {
   color: $horizon3;
   font-weight: bold;
+  
+}
+
+.reference {
+  color: white;
+  font-size: 0.5em;
   
 }
 
