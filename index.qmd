@@ -1,11 +1,15 @@
 ---
 title: "Webpage Design"
+author: "Alistair Bailey"
+date: last-modified
+date-format: "[Last updated on] YYYY-MM-DD" 
 format: 
   revealjs:
     theme: [assets/styles.scss] 
 revealjs-plugins:
   - revealjs-text-resizer
-  #- tts_min_reveal
+  - tts_min_reveal
+  #- spotlight
 title-slide-attributes:
     data-background-image: img/USH0149_LOGO-2021_RGB_White_Punched-AW.png
     data-background-size: 25%
@@ -15,33 +19,73 @@ title-slide-attributes:
 
 ## We are creating webpages that are [primarily text and links]{.vonrestoff} {.center}
 
+##  {#slide3-id data-menu-title="Government Design Service Poster" background-image="img/small-gov.png" background-size="contain" fig-alt="My alt text"}
 
-## {background-image="img/small-gov.png" background-size="contain"}
+[source: [GDS Team](https://www.flickr.com/photos/gdsteam/20955195028)]{.reference .absolute bottom="0" left="850"}
 
-[source: [GDS Team](https://www.flickr.com/photos/gdsteam/20955195028)]{.reference .absolute bottom=0 left=850}
-
-## {background-image="img/web-access-graph.gif" background-size="contain"}
+##  {#slide4-id data-menu-title="How people access the web" background-image="img/web-access-graph.gif" background-size="contain"}
 
 ## Design webpages for <br> [consistency]{.vonrestoff} across platforms {.center .bigger}
 
-## Design for [accessibility]{.vonrestoff} {.center}
+## Good design is [accessible]{.vonrestoff} {.center}
 
-## People don't read webpages<br> They [scan]{.vonrestoff} {.center}
+## People don't read webpages.<br> They [scan]{.vonrestoff} {.center}
 
-## How page structure affects scanability
+## How page structure affects scanability {.center}
 
-## {#wall-of-text-slide .center}
+##  {#slide9-id data-menu-title="Wall of text" .center}
 
-If I write a labyrinthine wall of text in small font without whitespace or much punctuation using really long sentences and
-perhaps some cumbersome jargon
-the page is much harder to read and the key information that the user is looking for is harder to 
-find; And if I put the most important information about how things can be improved
-using bullets, chunks, informative headings, bolding and highlights down here, it's likely the user will click away without even trying to read it, let alone finding what they came for when presented with a web page structured like this.
+If I write a labyrinthine wall of text in small font without white-space or much punctuation using really long sentences and perhaps some cumbersome jargon the page is much harder to read and the key information that the user is looking for is harder to find; And if I put the most important information about how things can be improved using bullets, chunks, informative headings, bolding, highlights and callouts down here, it's likely the user will click away without even trying to read it, let alone finding what they came for when presented with a web page structured like this.
 
 ## Making a webpage easier to scan {.center}
 
-+ An informative heading, with the the most important information at the top
-+ Use chunks, bullets, [**bolding**]{.highlight} and [highlighting]{.vonrestoff}
+-   An informative heading, with the most important information at the top
 
-## Good web writing is</br>[easy to read and understand]{.vonrestoff} {.center}
+-   Use chunks, bullets, [**bolding**]{.highlight}, [highlighting]{.vonrestoff} and
 
+    <div>
+
+    > callouts
+    >
+    > </div>
+
+## Good web writing is<br>[easy to read and understand]{.vonrestoff} {.center}
+
+## Writing by comparison {.center}
+
+:::{.fragment}
+
+> There is a difference between waving and drowning.
+
+:::
+
+:::{.fragment}
+
+> Waving differs from drowning.[*]{.highlight}
+
+
+[[*]{.highlight}Bennett Rule: verbs instead of nouns]{.reference}
+
+:::
+
+## Images, visuals and videos should be [used with caution]{.vonrestoff} {.center}
+
+##  {#slide14-id data-menu-title="NN/g Eyetracking Tiger page example" background-image="img/tigersincrisis-heat_corrected_cropped_watermark.png" background-size="contain"}
+
+##  {#slide14-id data-menu-title="NN/g Eyetracking Wikipedia page example" background-image="img/wikiped_micbar_education_fpattern-spotted_6ps_ab_85rad_cropped_watermark.png" background-size="contain"}
+
+## Key messages {.center}
+
+-   Design for [**what the user needs**]{.vonrestoff}
+-   Structure your webpages so they are [**easy to scan**]{.vonrestoff}
+-   Always look for ways to [**simplify and remove text**]{.vonrestoff}
+
+## What to read instead
+
+- My [companion website](https://ab604.github.io/webpage-design/){.mylink} for these slides
+
+-   [NN/g: Writing for the Web Articles & Videos](https://www.nngroup.com/topic/writing-web/)
+-   [NN/g: Psychology for UX: Study Guide](https://www.nngroup.com/articles/psychology-study-guide/){.uri}
+-   [GOV.UK: Content design: planning, writing and managing content](https://www.gov.uk/guidance/content-design/writing-for-gov-uk){.uri}
+-   [GOV.UK: Government Design Principles](https://www.gov.uk/guidance/government-design-principles){.uri}
+-   Books: [Letting go of the words by Janice Redish](https://southampton.on.worldcat.org/oclc/798674328){.uri} and NN/g book [How People Read on the Web](https://www.nngroup.com/reports/how-people-read-web-eyetracking-evidence/){.uri}

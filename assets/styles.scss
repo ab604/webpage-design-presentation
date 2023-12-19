@@ -7,8 +7,9 @@ $font-family-sans-serif: 'Atkinson Hyperlegible',Atkinson+Hyperlegible
 
 $body-bg: #222;
 $body-color: #fff;
-/*-- $link-color: #74C9E5; --*/
-$link-color: white;
+$link-color: #74C9E5; 
+$dark-bg-link-color: white;
+/*-- $link-color: white; --*/
 $black: black !default;
 $marine1: #005C84 !default;
 $marine2: #74C9E5 !default;
@@ -53,8 +54,8 @@ $presentation-heading-color: white;
   
 }
 
-.mylink {
-  color: $marine2;
+.quarto-link {
+  color: $marine5;
   font-weight: default;
   
 }
