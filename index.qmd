@@ -8,7 +8,7 @@ format:
     theme: [assets/styles.scss] 
 revealjs-plugins:
   - revealjs-text-resizer
-  - tts_min_reveal
+  #- tts_min_reveal
   #- spotlight
 title-slide-attributes:
     data-background-image: img/USH0149_LOGO-2021_RGB_White_Punched-AW.png
@@ -29,15 +29,15 @@ title-slide-attributes:
 
 ## Good design is [accessible]{.vonrestoff} {.center}
 
-## People don't read webpages.<br> They [scan]{.vonrestoff} {.center}
+## People don't read webpages,<br>they [scan]{.vonrestoff} {.center}
 
-## How page structure affects scanability {.center}
+## Page [structure]{.vonrestoff} affects scanability {.center}
 
 ##  {#slide9-id data-menu-title="Wall of text" .center}
 
-If I write a labyrinthine wall of text in small font without white-space or much punctuation using really long sentences and perhaps some cumbersome jargon the page is much harder to read and the key information that the user is looking for is harder to find; And if I put the most important information about how things can be improved using bullets, chunks, informative headings, bolding, highlights and callouts down here, it's likely the user will click away without even trying to read it, let alone finding what they came for when presented with a web page structured like this.
+If I write a labyrinthine wall of text in small font without a heading, white-space or much punctuation using really long sentences and perhaps some cumbersome jargon the page is much harder to read and the key information that the user is looking for is harder to find; And if I put the most important information about how things can be improved using bullets, chunks, informative headings, bolding, highlights and callouts down here, it's likely the user will click away without even trying to read it, let alone finding what they came for when presented with a web page structured like this.
 
-## Making a webpage easier to scan {.center}
+## A better structure {.center}
 
 -   An informative heading, with the most important information at the top
 
@@ -72,7 +72,7 @@ If I write a labyrinthine wall of text in small font without white-space or much
 
 ##  {#slide14-id data-menu-title="NN/g Eyetracking Tiger page example" background-image="img/tigersincrisis-heat_corrected_cropped_watermark.png" background-size="contain"}
 
-##  {#slide14-id data-menu-title="NN/g Eyetracking Wikipedia page example" background-image="img/wikiped_micbar_education_fpattern-spotted_6ps_ab_85rad_cropped_watermark.png" background-size="contain"}
+##  {#slide15-id data-menu-title="NN/g Eyetracking Wikipedia page example" background-image="img/wikiped_micbar_education_fpattern-spotted_6ps_ab_85rad_cropped_watermark.png" background-size="contain"}
 
 ## Key messages {.center}
 
