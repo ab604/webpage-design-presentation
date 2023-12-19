@@ -5,6 +5,7 @@ format:
     theme: [assets/styles.scss] 
 revealjs-plugins:
   - revealjs-text-resizer
+  #- tts_min_reveal
 title-slide-attributes:
     data-background-image: img/USH0149_LOGO-2021_RGB_White_Punched-AW.png
     data-background-size: 25%
@@ -23,4 +24,24 @@ title-slide-attributes:
 
 ## Design webpages for <br> [consistency]{.vonrestoff} across platforms {.center .bigger}
 
+## Design for [accessibility]{.vonrestoff} {.center}
+
 ## People don't read webpages<br> They [scan]{.vonrestoff} {.center}
+
+## How page structure affects scanability
+
+## {#wall-of-text-slide .center}
+
+If I write a labyrinthine wall of text in small font without whitespace or much punctuation using really long sentences and
+perhaps some cumbersome jargon
+the page is much harder to read and the key information that the user is looking for is harder to 
+find; And if I put the most important information about how things can be improved
+using bullets, chunks, informative headings, bolding and highlights down here, it's likely the user will click away without even trying to read it, let alone finding what they came for when presented with a web page structured like this.
+
+## Making a webpage easier to scan {.center}
+
++ An informative heading, with the the most important information at the top
++ Use chunks, bullets, [**bolding**]{.highlight} and [highlighting]{.vonrestoff}
+
+## Good web writing is</br>[easy to read and understand]{.vonrestoff} {.center}
+
