@@ -86,7 +86,7 @@ Use [**bolding**]{.highlight} and [highlighting]{.vonrestoff}.
 
 -   Design for [**what the user needs**]{.vonrestoff}
 -   Structure your webpages so they are [**easy to scan**]{.vonrestoff}
--   Always look for ways to [**simplify and remove text**]{.vonrestoff}
+-   Always look for ways to [**simplify and remove content**]{.vonrestoff}
 
 ## What to read instead
 
