@@ -59,9 +59,9 @@ Use [**bolding**]{.highlight} and [highlighting]{.vonrestoff}.
 :::
 
 ::: fragment
-> Waving differs from drowning.[\*]{.highlight} 
+> Waving differs from drowning.[\*]{.highlight}
 
-[[\*]{.highlight}Bennett Rule: verbs instead of nouns]{ .reference}
+[\*]{.highlight}Bennett Rule: verbs instead of nouns
 :::
 
 ## Images, visuals and videos should be used [sparingly]{.vonrestoff} {.center}
@@ -85,7 +85,9 @@ Use [**bolding**]{.highlight} and [highlighting]{.vonrestoff}.
 ## Key messages {.center}
 
 -   Design for [**what the user needs**]{.vonrestoff}
+
 -   Structure your webpages so they are [**easy to scan**]{.vonrestoff}
+
 -   Always look for ways to [**simplify and remove content**]{.vonrestoff}
 
 ## What to read instead
@@ -101,3 +103,15 @@ Use [**bolding**]{.highlight} and [highlighting]{.vonrestoff}.
 -   [GOV.UK: Government Design Principles](https://www.gov.uk/guidance/government-design-principles){.uri}
 
 -   Books: [Letting go of the words by Janice Redish](https://southampton.on.worldcat.org/oclc/798674328){.uri} and NN/g book [How People Read on the Web](https://www.nngroup.com/reports/how-people-read-web-eyetracking-evidence/){.uri}
+
+## Subtraction Neglect Bias {#sec-subtraction-neglect-bias .center}
+
+The bias towards adding instead of subtracting.
+
+::: {.callout-tip icon="true"}
+*"If you make to-do lists, consider stop-doings at the same time. Every time you find yourself considering a new activity or responsibility, force yourself to consider stopping two that you are already doing."*
+
+Leidy Klotz. Source: [Tim Harford, Financial Times, 2024-01-05](https://www.ft.com/content/eb616ad3-e680-4161-9e20-53c4607cb609)
+
+(Link only accessible to FT subscribers)
+:::
