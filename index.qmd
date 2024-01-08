@@ -106,12 +106,14 @@ Use [**bolding**]{.highlight} and [highlighting]{.vonrestoff}.
 
 ## Subtraction Neglect Bias {#sec-subtraction-neglect-bias .center}
 
-The bias towards adding instead of subtracting.
+The bias towards adding instead of subtracting. 
 
-::: {.callout-tip icon="true"}
-*"If you make to-do lists, consider stop-doings at the same time. Every time you find yourself considering a new activity or responsibility, force yourself to consider stopping two that you are already doing."*
+Consider removing words, slides, sections, ingredients, commitments or activities as a way to improve things.
 
-Leidy Klotz. Source: [Tim Harford, Financial Times, 2024-01-05](https://www.ft.com/content/eb616ad3-e680-4161-9e20-53c4607cb609)
+::: {.callout-tip title="Antoine de Saint-Exupéry, 1939" icon="true" appearance="simple"}
+*“...perfection is finally attained not when there is no longer anything to add, but when there is no longer anything to take away...”*
 
-(Link only accessible to FT subscribers)
+Source: [Tim Harford, Financial Times, 2024-01-05](https://www.ft.com/content/eb616ad3-e680-4161-9e20-53c4607cb609) (Link only accessible to FT subscribers)
 :::
+
+
