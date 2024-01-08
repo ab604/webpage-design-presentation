@@ -68,11 +68,29 @@ If I write a labyrinthine wall of text in small font without a heading, white-sp
 
 :::
 
-## Images, visuals and videos should be [used with caution]{.vonrestoff} {.center}
+## Images, visuals and videos should be used [sparingly]{.vonrestoff} {.center}
 
-##  {#slide14-id data-menu-title="NN/g Eyetracking Tiger page example" background-image="img/tigersincrisis-heat_corrected_cropped_watermark.png" background-size="contain"}
+## {#slide14-id auto-animate=true}
 
-##  {#slide15-id data-menu-title="NN/g Eyetracking Wikipedia page example" background-image="img/wikiped_micbar_education_fpattern-spotted_6ps_ab_85rad_cropped_watermark.png" background-size="contain"}
+On my most excellent webpage there is lots of important information.
+
+But unfortunately...
+
+![](img/begging-bibi.jpg){.absolute top=200 left=300}
+
+## {#slide15-id auto-animate=true}
+
+![](img/begging-bibi.jpg){.absolute top=50 left=300}
+
+## {#slide16-id auto-animate=true}
+
+![](img/begging-bibi.jpg){.absolute top=-200 left=300}
+
+[...I had to scroll past a begging cat to read this.]{.absolute top=500}
+
+##  {#slide17-id data-menu-title="NN/g Eyetracking Tiger page example" background-image="img/tigersincrisis-heat_corrected_cropped_watermark.png" background-size="contain"}
+
+##  {#slide18-id data-menu-title="NN/g Eyetracking Wikipedia page example" background-image="img/wikiped_micbar_education_fpattern-spotted_6ps_ab_85rad_cropped_watermark.png" background-size="contain"}
 
 ## Key messages {.center}
 
