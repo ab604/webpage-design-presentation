@@ -33,11 +33,11 @@ title-slide-attributes:
 
 ## [Structure]{.vonrestoff} pages for ease of scanning {.center}
 
-## {#slide9-id .center data-menu-title="Wall of text"}
+##  {#slide9-id .center data-menu-title="Wall of text"}
 
 If I write a labyrinthine wall of text in small font without a heading, white-space or much punctuation using really long sentences and perhaps some cumbersome jargon the page is much harder to read and the key information that the user is looking for is harder to find; And if I put the most important information about how things can be improved using bullets, chunks, informative headings, bolding, highlights and callouts down here, it's likely the user will click away without even trying to read it, let alone finding what they came for when presented with a web page structured like this.
 
-## {#slide10-id .center}
+##  {#slide10-id .center}
 
 ::: {.callout-important .unnumbered title="Key points for webpage structure" icon="false"}
 Put the most important information at the top. Use chunks with informative headings. Use short sentences and simple vocabulary.
@@ -48,9 +48,7 @@ Use [**bolding**]{.highlight} and [highlighting]{.vonrestoff}.
 -   Use bullets
 
 ::: {.callout-tip title="Use Callouts" appearance="simple" icon="true"}
-    
 :::
-
 
 ## Good web writing is<br>[easy to read and understand]{.vonrestoff} {.center}
 
@@ -61,9 +59,9 @@ Use [**bolding**]{.highlight} and [highlighting]{.vonrestoff}.
 :::
 
 ::: fragment
-> Waving differs from drowning.[\*]{.highlight}
+> Waving differs from drowning.[\*]{.highlight} 
 
-[\*]{.highlight}Bennett Rule: verbs instead of nouns
+[[\*]{.highlight}Bennett Rule: verbs instead of nouns]{ .reference}
 :::
 
 ## Images, visuals and videos should be used [sparingly]{.vonrestoff} {.center}
