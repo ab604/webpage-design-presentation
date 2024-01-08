@@ -31,55 +31,54 @@ title-slide-attributes:
 
 ## People don't read webpages,<br>they [scan]{.vonrestoff} {.center}
 
-## Page [structure]{.vonrestoff} affects scanability {.center}
+## [Structure]{.vonrestoff} pages for ease of scanning {.center}
 
-##  {#slide9-id data-menu-title="Wall of text" .center}
+## {#slide9-id .center data-menu-title="Wall of text"}
 
 If I write a labyrinthine wall of text in small font without a heading, white-space or much punctuation using really long sentences and perhaps some cumbersome jargon the page is much harder to read and the key information that the user is looking for is harder to find; And if I put the most important information about how things can be improved using bullets, chunks, informative headings, bolding, highlights and callouts down here, it's likely the user will click away without even trying to read it, let alone finding what they came for when presented with a web page structured like this.
 
-## A better structure {.center}
+## {#slide10-id .center}
 
--   An informative heading, with the most important information at the top
+::: {.callout-important .unnumbered title="Key points for webpage structure" icon="false"}
+Put the most important information at the top. Use chunks with informative headings. Use short sentences and simple vocabulary.
+:::
 
--   Use chunks, bullets, [**bolding**]{.highlight}, [highlighting]{.vonrestoff} and
+Use [**bolding**]{.highlight} and [highlighting]{.vonrestoff}.
 
-    <div>
+-   Use bullets
 
-    > callouts
-    >
-    > </div>
+::: {.callout-tip title="Use Callouts" appearance="simple" icon="true"}
+    
+:::
+
 
 ## Good web writing is<br>[easy to read and understand]{.vonrestoff} {.center}
 
 ## Writing by comparison {.center}
 
-:::{.fragment}
-
+::: fragment
 > There is a difference between waving and drowning.
-
 :::
 
-:::{.fragment}
+::: fragment
+> Waving differs from drowning.[\*]{.highlight}
 
-> Waving differs from drowning.[*]{.highlight}
-
-
-[[*]{.highlight}Bennett Rule: verbs instead of nouns]{.reference}
-
+[\*]{.highlight}Bennett Rule: verbs instead of nouns
 :::
 
 ## Images, visuals and videos should be used [sparingly]{.vonrestoff} {.center}
 
-## {#slide14-id auto-animate=true}
-![](img/begging-bibi.jpg){.absolute top=325}
+##  {#slide14-id auto-animate="true"}
 
+![](img/begging-bibi.jpg){.absolute top="325"}
 
+##  {#slide15-id auto-animate="true"}
 
-## {#slide15-id auto-animate=true}
-![](img/begging-bibi.jpg){.absolute top=250}
+![](img/begging-bibi.jpg){.absolute top="250"}
 
-## {#slide16-id auto-animate=true}
-![](img/begging-bibi.jpg){.absolute top=10}
+##  {#slide16-id auto-animate="true"}
+
+![](img/begging-bibi.jpg){.absolute top="10"}
 
 ##  {#slide17-id data-menu-title="NN/g Eyetracking Tiger page example" background-image="img/tigersincrisis-heat_corrected_cropped_watermark.png" background-size="contain"}
 
@@ -93,10 +92,14 @@ If I write a labyrinthine wall of text in small font without a heading, white-sp
 
 ## What to read instead
 
-- My [companion website](https://ab604.github.io/webpage-design/){.mylink} for these slides
+-   My [companion website](https://ab604.github.io/webpage-design/){.mylink} for these slides
 
 -   [NN/g: Writing for the Web Articles & Videos](https://www.nngroup.com/topic/writing-web/)
+
 -   [NN/g: Psychology for UX: Study Guide](https://www.nngroup.com/articles/psychology-study-guide/){.uri}
+
 -   [GOV.UK: Content design: planning, writing and managing content](https://www.gov.uk/guidance/content-design/writing-for-gov-uk){.uri}
+
 -   [GOV.UK: Government Design Principles](https://www.gov.uk/guidance/government-design-principles){.uri}
+
 -   Books: [Letting go of the words by Janice Redish](https://southampton.on.worldcat.org/oclc/798674328){.uri} and NN/g book [How People Read on the Web](https://www.nngroup.com/reports/how-people-read-web-eyetracking-evidence/){.uri}
