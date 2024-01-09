@@ -17,7 +17,7 @@ title-slide-attributes:
     data-background-color: "#8D3970"
 ---
 
-## We are creating webpages that are [primarily text and links]{.vonrestoff} {.center}
+## We are creating webpages that are primarily [text and links]{.vonrestoff} {.center}
 
 ##  {#slide3-id data-menu-title="Government Design Service Poster" background-image="img/small-gov.png" background-size="contain" fig-alt="My alt text"}
 
@@ -31,13 +31,17 @@ title-slide-attributes:
 
 ## People don't read webpages,<br>they [scan]{.vonrestoff} {.center}
 
+##  {#slide8-id data-menu-title="NN/g Eyetracking Tiger page example" background-image="img/tigersincrisis-heat_corrected_cropped_watermark.png" background-size="contain"}
+
+##  {#slide9-id data-menu-title="NN/g Eyetracking Wikipedia page example" background-image="img/wikiped_micbar_education_fpattern-spotted_6ps_ab_85rad_cropped_watermark.png" background-size="contain"}
+
 ## [Structure]{.vonrestoff} pages for ease of scanning {.center}
 
-##  {#slide9-id .center data-menu-title="Wall of text"}
+##  {#slide11-id .center data-menu-title="Wall of text"}
 
 If I write a labyrinthine wall of text in small font without a heading, white-space or much punctuation using really long sentences and perhaps some cumbersome jargon the page is much harder to read and the key information that the user is looking for is harder to find; And if I put the most important information about how things can be improved using bullets, chunks, informative headings, bolding, highlights and callouts down here, it's likely the user will click away without even trying to read it, let alone finding what they came for when presented with a web page structured like this.
 
-##  {#slide10-id .center}
+##  {#slide12-id data-menu-title="Key points for webpage structure" .center}
 
 ::: {.callout-important .unnumbered title="Key points for webpage structure" icon="false"}
 Put the most important information at the top. Use chunks with informative headings. Use short sentences and simple vocabulary.
@@ -61,26 +65,22 @@ Use [**bolding**]{.highlight} and [highlighting]{.vonrestoff}.
 ::: fragment
 > Waving differs from drowning.[\*]{.highlight}
 
-[\*]{.highlight}Bennett Rule: verbs instead of nouns
+[[\*]{.highlight}Bennett Rule: verbs instead of nouns]{.reference}
 :::
 
 ## Images, visuals and videos should be used [sparingly]{.vonrestoff} {.center}
 
-##  {#slide14-id auto-animate="true"}
+##  {#slide16-id data-menu-title="Bibi 1" auto-animate="true"}
 
 ![](img/begging-bibi.jpg){.absolute top="325"}
 
-##  {#slide15-id auto-animate="true"}
+##  {#slide17-id data-menu-title="Bibi 2" auto-animate="true"}
 
 ![](img/begging-bibi.jpg){.absolute top="250"}
 
-##  {#slide16-id auto-animate="true"}
+##  {#slide18-id data-menu-title="Bibi 3" auto-animate="true"}
 
 ![](img/begging-bibi.jpg){.absolute top="10"}
-
-##  {#slide17-id data-menu-title="NN/g Eyetracking Tiger page example" background-image="img/tigersincrisis-heat_corrected_cropped_watermark.png" background-size="contain"}
-
-##  {#slide18-id data-menu-title="NN/g Eyetracking Wikipedia page example" background-image="img/wikiped_micbar_education_fpattern-spotted_6ps_ab_85rad_cropped_watermark.png" background-size="contain"}
 
 ## Key messages {.center}
 
