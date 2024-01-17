@@ -23,6 +23,8 @@ title-slide-attributes:
 
 [source: [GDS Team](https://www.flickr.com/photos/gdsteam/20955195028)]{.reference .absolute bottom="0" left="850"}
 
+## Focus on [what people do]{.vonrestoff} not what they say {.center .bigger}
+
 ##  {#slide4-id data-menu-title="How people access the web" background-image="img/web-access-graph.gif" background-size="contain"}
 
 ## Design webpages for <br> [consistency]{.vonrestoff} across platforms {.center .bigger}
