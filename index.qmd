@@ -8,8 +8,6 @@ format:
     theme: [assets/styles.scss] 
 revealjs-plugins:
   - revealjs-text-resizer
-  #- tts_min_reveal
-  #- spotlight
 title-slide-attributes:
     data-background-image: img/USH0149_LOGO-2021_RGB_White_Punched-AW.png
     data-background-size: 25%
@@ -31,6 +29,41 @@ title-slide-attributes:
 
 ## Good design is [accessible]{.vonrestoff} {.center}
 
+## Overcoming working memory limitations: {.center}
+
+7591248630145829
+
+. . .
+
+[**Chunks**]{.vonrestoff}
+
+. . . 
+
+The cat is on the mat
+
+ 
+
+## Overcoming working memory limitations: {.center}
+
+один
+два 
+три 
+четыре 
+пять 
+шесть 
+семь 
+восемь 
+девять 
+десять 
+
+. . . 
+
+[**Rules and processes**]{.vonrestoff}
+
+. . .
+
+one two three four five six seven eight nine ten
+
 ## People don't read webpages,<br>they [scan]{.vonrestoff} {.center}
 
 ##  {#slide8-id data-menu-title="NN/g Eyetracking Tiger page example" background-image="img/tigersincrisis-heat_corrected_cropped_watermark.png" background-size="contain"}
@@ -43,7 +76,7 @@ title-slide-attributes:
 
 If I write a labyrinthine wall of text in small font without a heading, white-space or much punctuation using really long sentences and perhaps some cumbersome jargon the page is much harder to read and the key information that the user is looking for is harder to find; And if I put the most important information about how things can be improved using bullets, chunks, informative headings, bolding, highlights and callouts down here, it's likely the user will click away without even trying to read it, let alone finding what they came for when presented with a web page structured like this.
 
-##  {#slide12-id data-menu-title="Key points for webpage structure" .center}
+##  {#slide12-id .center data-menu-title="Key points for webpage structure"}
 
 ::: {.callout-important .unnumbered title="Key points for webpage structure" icon="false"}
 Put the most important information at the top. Use chunks with informative headings. Use short sentences and simple vocabulary.
@@ -67,7 +100,7 @@ Use [**bolding**]{.highlight} and [highlighting]{.vonrestoff}.
 ::: fragment
 > Waving differs from drowning.[\*]{.highlight}
 
-[[\*]{.highlight}Bennett Rule: verbs instead of nouns]{.reference}
+[\*]{.highlight}Bennett Rule: verbs instead of nouns
 :::
 
 ## Images, visuals and videos should be used [sparingly]{.vonrestoff} {.center}
@@ -108,7 +141,7 @@ Use [**bolding**]{.highlight} and [highlighting]{.vonrestoff}.
 
 ## Subtraction Neglect Bias {#sec-subtraction-neglect-bias .center}
 
-The bias towards adding instead of subtracting. 
+The bias towards adding instead of subtracting.
 
 Consider removing words, slides, sections, ingredients, commitments or activities as a way to improve things.
 
@@ -117,5 +150,3 @@ Consider removing words, slides, sections, ingredients, commitments or activitie
 
 Source: [Tim Harford, Financial Times, 2024-01-05](https://www.ft.com/content/eb616ad3-e680-4161-9e20-53c4607cb609) (Link only accessible to FT subscribers)
 :::
-
-
