@@ -15,7 +15,7 @@ title-slide-attributes:
     data-background-color: "#8D3970"
 ---
 
-# Concepts {background-color="#4BB694"}
+# Human factors {background-color="#4BB694"}
 
 ## 1. Judgement is best made by comparison {.center}
 
