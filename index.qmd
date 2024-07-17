@@ -15,6 +15,48 @@ title-slide-attributes:
     data-background-color: "#8D3970"
 ---
 
+# Concepts {background-color="#4BB694"}
+
+## 1. Judgement is best made by comparison {.center}
+
+## {background-image="img/eight-colours.png" background-size="contain" background-color="white"}
+
+## {background-image="img/single-colour.png" background-size="contain" background-color="white"}
+
+## {background-image="img/two-colours.png" background-size="contain" background-color="white"}
+
+## 2. Working memory limits [(5±2)]{.vonrestoff} {.center}
+
+## Overcoming working memory limitations: {.center}
+
+7591248630145829
+
+. . .
+
+[**Chunks**]{.vonrestoff}
+
+. . .
+
+The cat is on the mat
+
+## Overcoming working memory limitations: {.center}
+
+один два три четыре пять шесть семь восемь девять десять
+
+. . .
+
+[**Rules and processes**]{.vonrestoff}
+
+. . .
+
+one two three four five six seven eight nine ten
+
+## 3. Expressed Preference versus Revealed Preferences {.center}
+
+## {background-image="img/Desire-Lines_Blog.jpg" background-size="contain"}
+
+# Webpage desgin {background-color="#4BB694"}
+
 ## We are creating webpages that are primarily [text and links]{.vonrestoff} {.center}
 
 ##  {#slide3-id data-menu-title="Government Design Service Poster" background-image="img/small-gov.png" background-size="contain" fig-alt="My alt text"}
@@ -28,41 +70,6 @@ title-slide-attributes:
 ## Design webpages for <br> [consistency]{.vonrestoff} across platforms {.center .bigger}
 
 ## Good design is [accessible]{.vonrestoff} {.center}
-
-## Overcoming working memory limitations: {.center}
-
-7591248630145829
-
-. . .
-
-[**Chunks**]{.vonrestoff}
-
-. . . 
-
-The cat is on the mat
-
- 
-
-## Overcoming working memory limitations: {.center}
-
-один
-два 
-три 
-четыре 
-пять 
-шесть 
-семь 
-восемь 
-девять 
-десять 
-
-. . . 
-
-[**Rules and processes**]{.vonrestoff}
-
-. . .
-
-one two three four five six seven eight nine ten
 
 ## People don't read webpages,<br>they [scan]{.vonrestoff} {.center}
 
@@ -78,17 +85,20 @@ If I write a labyrinthine wall of text in small font without a heading, white-sp
 
 ##  {#slide12-id .center data-menu-title="Key points for webpage structure"}
 
-::: {.callout-important .unnumbered title="Key points for webpage structure" icon="false"}
+::: {.callout-important .unnumbered title="Key points for webpage structure" icon="true"}
 Put the most important information at the top. Use chunks with informative headings. Use short sentences and simple vocabulary.
+
+Important information could go in a callout like this.
 :::
 
-Use [**bolding**]{.highlight} and [highlighting]{.vonrestoff}.
+Use [**bolding**]{.highlight} and [highlighting]{.vonrestoff}
 
 -   Use bullets
 
-::: {.callout-tip title="Use Callouts" appearance="simple" icon="true"}
-:::
-
+```{=html}
+<!-- ::: {.callout-tip title="Use Callouts" appearance="simple" icon="true"}
+::: -->
+```
 ## Good web writing is<br>[easy to read and understand]{.vonrestoff} {.center}
 
 ## Writing by comparison {.center}
@@ -146,7 +156,7 @@ The bias towards adding instead of subtracting.
 Consider removing words, slides, sections, ingredients, commitments or activities as a way to improve things.
 
 ::: {.callout-tip title="Antoine de Saint-Exupéry, 1939" icon="true" appearance="simple"}
-*“...perfection is finally attained not when there is no longer anything to add, but when there is no longer anything to take away...”*
+*"...perfection is finally attained not when there is no longer anything to add, but when there is no longer anything to take away..."*
 
 Source: [Tim Harford, Financial Times, 2024-01-05](https://www.ft.com/content/eb616ad3-e680-4161-9e20-53c4607cb609) (Link only accessible to FT subscribers)
 :::
