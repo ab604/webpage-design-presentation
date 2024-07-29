@@ -65,11 +65,9 @@ one two three four five six seven eight nine ten
 
 ## Focus on [what people do]{.vonrestoff} not what they say {.center .bigger}
 
-##  {#slide4-id data-menu-title="How people access the web" background-image="img/web-access-graph.gif" background-size="contain"}
+<!--- ##  {#slide4-id data-menu-title="How people access the web" background-image="img/web-access-graph.gif" background-size="contain"}
 
-## Design webpages for <br> [consistency]{.vonrestoff} across platforms {.center .bigger}
-
-## Good design is [accessible]{.vonrestoff} {.center}
+## Design webpages for <br> [consistency]{.vonrestoff} across platforms {.center .bigger} -->
 
 ## People don't read webpages,<br>they [scan]{.vonrestoff} {.center}
 
@@ -126,6 +124,8 @@ Use [**bolding**]{.highlight} and [highlighting]{.vonrestoff}
 ##  {#slide18-id data-menu-title="Bibi 3" auto-animate="true"}
 
 ![](img/begging-bibi.jpg){.absolute top="10"}
+
+## Good design is [accessible]{.vonrestoff} {.center}
 
 ## Key messages {.center}
 
