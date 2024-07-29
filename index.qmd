@@ -97,6 +97,9 @@ Use [**bolding**]{.highlight} and [highlighting]{.vonrestoff}
 <!-- ::: {.callout-tip title="Use Callouts" appearance="simple" icon="true"}
 ::: -->
 ```
+
+## [Fonts matter.]{.vonrestoff} But there is no best font. {.center}
+
 ## Good web writing is<br>[easy to read and understand]{.vonrestoff} {.center}
 
 ## Writing by comparison {.center}
