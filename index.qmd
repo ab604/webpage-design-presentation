@@ -51,17 +51,19 @@ The cat is on the mat
 
 one two three four five six seven eight nine ten
 
-## 3. Expressed Preference versus Revealed Preferences {.center}
+## 3. Stated Preference versus Revealed Preference {.center}
 
-## {background-image="img/Desire-Lines_Blog.jpg" background-size="contain"}
+## {background-image="https://upload.wikimedia.org/wikipedia/commons/2/2e/Desire_path_-_52849400711.jpg" background-size="contain"}
 
-# Webpage desgin {background-color="#4BB694"}
+[Source: [Wikipedia](https://upload.wikimedia.org/wikipedia/commons/2/2e/Desire_path_-_52849400711.jpg)]{.reference .absolute bottom="0" right="0"}
+
+# Webpage design {background-color="#4BB694"}
 
 ## We are creating webpages that are primarily [text and links]{.vonrestoff} {.center}
 
 ##  {#slide3-id data-menu-title="Government Design Service Poster" background-image="img/small-gov.png" background-size="contain" fig-alt="My alt text"}
 
-[source: [GDS Team](https://www.flickr.com/photos/gdsteam/20955195028)]{.reference .absolute bottom="0" left="850"}
+[Source: [GDS Team](https://www.flickr.com/photos/gdsteam/20955195028)]{.reference .absolute bottom="0" left="850"}
 
 ## Focus on [what people do]{.vonrestoff} not what they say {.center .bigger}
 
@@ -80,6 +82,20 @@ one two three four five six seven eight nine ten
 ##  {#slide11-id .center data-menu-title="Wall of text"}
 
 If I write a labyrinthine wall of text in small font without a heading, white-space or much punctuation using really long sentences and perhaps some cumbersome jargon the page is much harder to read and the key information that the user is looking for is harder to find; And if I put the most important information about how things can be improved using bullets, chunks, informative headings, bolding, highlights and callouts down here, it's likely the user will click away without even trying to read it, let alone finding what they came for when presented with a web page structured like this.
+
+## Images, visuals and videos should be used [sparingly]{.vonrestoff} {.center}
+
+##  {#slide16-id data-menu-title="Bibi 1" auto-animate="true"}
+
+![](img/begging-bibi.jpg){.absolute top="325"}
+
+##  {#slide17-id data-menu-title="Bibi 2" auto-animate="true"}
+
+![](img/begging-bibi.jpg){.absolute top="250"}
+
+##  {#slide18-id data-menu-title="Bibi 3" auto-animate="true"}
+
+![](img/begging-bibi.jpg){.absolute top="10"}
 
 ##  {#slide12-id .center data-menu-title="Key points for webpage structure"}
 
@@ -114,21 +130,23 @@ Use [**bolding**]{.highlight} and [highlighting]{.vonrestoff}
 [\*]{.highlight}Bennett Rule: verbs instead of nouns
 :::
 
-## Images, visuals and videos should be used [sparingly]{.vonrestoff} {.center}
-
-##  {#slide16-id data-menu-title="Bibi 1" auto-animate="true"}
-
-![](img/begging-bibi.jpg){.absolute top="325"}
-
-##  {#slide17-id data-menu-title="Bibi 2" auto-animate="true"}
-
-![](img/begging-bibi.jpg){.absolute top="250"}
-
-##  {#slide18-id data-menu-title="Bibi 3" auto-animate="true"}
-
-![](img/begging-bibi.jpg){.absolute top="10"}
-
 ## Good design is [accessible]{.vonrestoff} {.center}
+
+## {.center}
+
+:::{.callout-tip collapse="true" title="Common accessibility issues"}
+These are the most common accessibility issues encountered by Digital Scholarship's Kiki Kuijjer:
+
+-   Embedded links not distinguishable
+
+-   Insufficient colour contrast
+
+-   Alt-text missing
+
+-   Not keyboard accessible
+
+You can check your page for potential issues using an accessibility checker such as the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/).
+:::
 
 ## Key messages {.center}
 
